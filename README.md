@@ -22,3 +22,4 @@
 - Conhecimentos sobre a construção de layouts com HTML semântico.
 - Dicas de responsividade, animações, variáveis e posicionamento de elementos com CSS.
 - Manipulação do DOM.
+- Conceitos de Git e GitHub
