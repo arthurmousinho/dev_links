@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio's Link</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap" rel="stylesheet">
+  <!-- Style Css -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div id="profile">
+      <img src="https://media.licdn.com/dms/image/D4D35AQECvNsAEszXSg/profile-framedphoto-shrink_200_200/0/1655982268447?e=1673053200&v=beta&t=-pjiTZ_FALiRGvQyRs2BGJgBQNHkxBxRDIlUNNP9ZVI" alt="foto de perfil Arthur Mousinho">
+      <h1>
+        Arthur Mousinho
+      </h1>
+      <span>Engenheiro de Software</span>
+    </div>
+
+    <div id="change-theme-container">
+      <div id="switch">
+        <button onclick="toogleMode()"></button>
+        <span id="track"></span>
+        <span id="message">
+      </div>
+      <p>Trocar de Tema</p>
+    </div>
+
+    <div class="links">
+      <a href="https://github.com/arthurmousinho/tasks.Js" target="_blank">
+        Lista de Tarefas
+      </a>
+
+      <a href="https://github.com/arthurmousinho/simula_facil/" target="_blank">
+        Simulador de Compras com Juros
+      </a>
+
+      <a href="https://github.com/arthurmousinho/dev-card" target="_blank">
+        Cartão de Visitas para Devs
+      </a>
+
+      <a href="https://github.com/arthurmousinho/the_barbatos" target="_blank">
+        Aplicação desktop de uma Barbearia
+      </a>
+    </div>
+
+  </main>
+
+  <script>
+    function toogleMode() {
+      const html = document.documentElement
+      html.classList.toggle('light')
+    }
+  </script>
+</body>
+</html>
