@@ -28,6 +28,7 @@
   color: var(--text-color);
   box-sizing: border-box;
   padding: 0;
+  overflow: hidden;
 }
 
 main { 
