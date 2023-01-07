@@ -28,12 +28,12 @@
   color: var(--text-color);
   box-sizing: border-box;
   padding: 0;
-  overflow: hidden;
 }
 
 main { 
   width: 600px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -157,13 +157,14 @@ body {
 
 @media (max-width: 600px) {
   main {
-    width: 100vw;
+    width: 100%;
+    margin: auto;
   }
 
   .links a {
     height: 70px;
     font-size: 15px;
-    width: 90%;
+    width: 80%;
   }
 }
 
